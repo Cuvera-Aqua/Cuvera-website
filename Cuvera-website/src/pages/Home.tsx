@@ -161,17 +161,18 @@ export default function Home() {
   message: "",
 });
 
-const handleSubmit = (e: React.FormEvent) => {
+const handleSubmit = (e: React.SyntheticEvent) => {
   e.preventDefault();
   const text = 
-    `Hello Cuvera Aqua!` + "\n\n" +
-    `*New Enquiry*` + "\n" +
-    `*Name:* ${formData.name}` + "\n" +
-    `*Email:* ${formData.email}` + "\n" +
-    `*Phone:* ${formData.phone}` + "\n" +
-    `*Message:* ${formData.message}`;
+    "Hello Cuvera Aqua!" + "\n\n" +
+    "New Enquiry" + "\n" +
+    "-------------------" + "\n" +
+    "Name: " + formData.name + "\n" +
+    "Email: " + formData.email + "\n" +
+    "Phone: " + formData.phone + "\n" +
+    "Message: " + formData.message;
 
-  const whatsappUrl = `https://wa.me/919721785327?text=${encodeURIComponent(text)}`;
+  const whatsappUrl = "https://wa.me/919721785327?text=" + encodeURIComponent(text);
   window.open(whatsappUrl, "_blank");
 };
   useCountUp(statsRef);
