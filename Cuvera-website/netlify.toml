@@ -1,7 +1,7 @@
 [build]
   base = "Cuvera-website"
   command = "npm run build"
-  publish = "Cuvera-website/dist"
+  publish = "dist"
 
 [[redirects]]
   from = "/*"
