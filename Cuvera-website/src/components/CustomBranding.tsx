@@ -1,5 +1,6 @@
 import { brandingUses, WHATSAPP_URL } from "../data/data";
 import { S } from "../styles/shared";
+import customimg from "../assets/custom.jpeg"
 
 export default function CustomBranding() {
   return (
@@ -25,7 +26,7 @@ export default function CustomBranding() {
           </a>
         </div>
         <div style={{ flex: 1, borderRadius: "16px", overflow: "hidden", minHeight: "400px" }}>
-          <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=700&q=80" alt="Custom label bottles" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+          <img src={customimg} alt="Custom label bottles" style={{ width: "95%", height: "610px", objectFit: "cover" }} />
         </div>
       </div>
     </section>

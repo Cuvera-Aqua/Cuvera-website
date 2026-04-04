@@ -9,9 +9,11 @@ export default function Footer() {
             <div style={{ fontSize: "22px", fontWeight: 800, color: "#fff", marginBottom: "12px" }}>
               <span style={{ color: "#2563eb" }}>Cuvera</span> Aqua
             </div>
-            <p style={{ fontSize: "14px", lineHeight: 1.7 }}>
+            <p style={{ fontSize: "14px", lineHeight: 1.7 , marginBottom: "30px"}}>
               Pure, copper-infused drinking water for a healthier lifestyle.
             </p>
+            <div style={{ fontSize: "14px", fontWeight: 600, color: "#fff", marginBottom: "10px" }}>Brand Owner</div>
+            <div style={{ fontSize: "14px",marginBottom: "10px" }}>Siddhartha Sharma</div>
           </div>
 
           {/* Quick Links */}

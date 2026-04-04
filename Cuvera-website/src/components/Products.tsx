@@ -11,7 +11,7 @@ export default function Products() {
           {products.map((p) => (
             <div key={p.name} className="product-card" style={{ border: "1px solid #e2e8f0", borderRadius: "16px", overflow: "hidden", transition: "all 0.3s ease", boxShadow: "0 2px 8px rgba(0,0,0,0.04)", background: "#fff" }}>
               <div style={{ background: "#f0f9ff", padding: "24px", display: "flex", justifyContent: "center" }}>
-                <img src={p.img} alt={p.name} style={{ height: "180px", width: "100%", objectFit: "cover", borderRadius: "8px" }} />
+                <img src={p.img} alt={p.name} style={{ height: "250px", width: "100%", objectFit: "cover", borderRadius: "8px" }} />
               </div>
               <div style={{ padding: "20px" }}>
                 <h3 style={{ fontSize: "18px", fontWeight: 700, marginBottom: "4px" }}>{p.name}</h3>

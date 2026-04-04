@@ -1,7 +1,11 @@
+import img250ml from "../assets/250ML.jpeg"
+import img500ml from "../assets/500ML.jpeg"
+import img20l from "../assets/20L.jpeg"
+
 export const stats = [
   { icon: "🛡️", value: "100%", label: "Safe & Pure" },
   { icon: "🏅", value: "ISO", label: "Certified Quality" },
-  { icon: "👥", value: "10,000+", label: "Happy Customers" },
+  { icon: "👥", value: "Happy ", label: "Customers" },
   { icon: "🚚", value: "Fast", label: "Delivery" },
 ];
 
@@ -10,13 +14,13 @@ export const products = [
     name: "250ml Bottle",
     tagline: "Perfect for events & functions",
     desc: "Ideal for parties, conferences, and special occasions",
-    img: "https://images.unsplash.com/photo-1603356033288-acfcb54801e6?w=400&q=80",
+    img: img250ml,
   },
   {
     name: "500ml Bottle",
     tagline: "Daily hydration companion",
     desc: "Perfect for daily use, travel, and on-the-go",
-    img: "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=400&q=80",
+    img: img500ml,
   },
   {
     name: "1 Litre Bottle",
@@ -28,7 +32,7 @@ export const products = [
     name: "20 Litre Jar",
     tagline: "Home & office solution",
     desc: "Complete water solution for homes and offices",
-    img: "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400&q=80",
+    img: img20l,
   },
 ];
 
