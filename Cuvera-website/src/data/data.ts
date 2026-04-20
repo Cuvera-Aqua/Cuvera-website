@@ -1,6 +1,7 @@
 import img250ml from "../assets/250ML.jpeg"
 import img500ml from "../assets/500ML.jpeg"
 import img20l from "../assets/20L.jpeg"
+import img1l from "../assets/1 L.jpeg"
 
 export const stats = [
   { icon: "🛡️", value: "100%", label: "Safe & Pure" },
@@ -26,7 +27,7 @@ export const products = [
     name: "1 Litre Bottle",
     tagline: "Family size hydration",
     desc: "Great for families, offices, and workouts",
-    img: "https://images.unsplash.com/photo-1523362628745-0c100150b504?w=400&q=80",
+    img: img1l,
   },
   {
     name: "20 Litre Jar",
