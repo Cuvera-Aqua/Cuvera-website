@@ -1,4 +1,3 @@
-import imggov from "../assets/gov.jpeg";
 import imgfas from "../assets/fassai.jpeg";
 
 const footerStyles = `
@@ -79,31 +78,6 @@ export default function Footer() {
                 Siddhartha Sharma
               </div>
 
-              {/* Certificates side by side */}
-              <div className="footer-cert-images">
-                <img
-                  src={imggov}
-                  alt="MSME / Udyam Registered"
-                  style={{
-                    width: "180px",
-                    height: "auto",
-                    borderRadius: "10px",
-                    objectFit: "contain",
-                  }}
-                />
-                <img
-                  src={imgfas}
-                  alt="FSSAI Registered"
-                  style={{
-                    width: "110px",
-                    height: "auto",
-                    borderRadius: "10px",
-                    objectFit: "contain",
-                    background: "#fff",
-                    padding: "6px",
-                  }}
-                />
-              </div>
             </div>
 
             {/* Quick Links */}
@@ -207,6 +181,20 @@ export default function Footer() {
                 >
                   📞 +91 97217 85327
                 </div>
+                {/* FSSAI Certificate */}
+                <img
+                  src={imgfas}
+                  alt="FSSAI Registered"
+                  style={{
+                    width: "110px",
+                    height: "auto",
+                    borderRadius: "10px",
+                    objectFit: "contain",
+                    background: "#fff",
+                    padding: "6px",
+                    marginTop: "8px",
+                  }}
+                />
               </div>
             </div>
           </div>
